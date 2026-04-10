@@ -39,7 +39,7 @@
         <div class="secao-header">
           <span class="secao-icon">🍔</span>
           <h2>Lanches Naturais</h2>
-          <span class="secao-count">4 itens</span>
+          <span class="secao-count">6 itens</span>
         </div>
         <div class="prods-grid">
           <div class="prod-card" data-categoria="lanches">
@@ -92,6 +92,32 @@
               </div>
             </div>
           </div>
+          <div class="prod-card" data-categoria="lanches">
+            <div class="prod-img">
+                <img src="img/wrap-veggie.jpg" alt="veggie">
+              <div class="prod-tags"><span class="tag tag-v">Fit</span></div></div>
+            <div class="prod-body">
+              <div class="prod-nome">Wrap Veggie</div>
+              <div class="prod-desc">Wrap integral recheado com homus, cenoura ralada, espinafre, pepino e tomate cereja — leve, colorido e cheio de sabor!</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 14,90</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'snb5',nome:'Wrap Veggie',preco:14.90,emoji:'🥗',desc:'Wrap vegano recheado'})">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="prod-card" data-categoria="lanches">
+            <div class="prod-img">
+            <img src="img/omelet.jpg" alt="omelete">
+          </div>
+            <div class="prod-body">
+              <div class="prod-nome">Omelete na Chapa</div>
+              <div class="prod-desc">Omelete cremosa com queijo, tomate e orégano, servida quentinha no pão de forma integral tostado na chapa.</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 10,50</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'snb6',nome:'Omelete na Chapa',preco:10.50,emoji:'🥚',desc:'Omelete no pão integral'})">+</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -100,7 +126,7 @@
         <div class="secao-header">
           <span class="secao-icon">🍟</span>
           <h2>Combos</h2>
-          <span class="secao-count">3 combos</span>
+          <span class="secao-count">6 combos</span>
         </div>
         <div class="prods-grid">
           <div class="prod-card" data-categoria="combos">
@@ -140,6 +166,44 @@
               </div>
             </div>
           </div>
+          <div class="prod-card" data-categoria="combos">
+            <div class="prod-img">
+              <img src="img/combo-fit.jpg" alt="fitness">
+              <div class="prod-tags"><span class="tag tag-v">Fit</span></div></div>
+            <div class="prod-body">
+              <div class="prod-nome">Combo Fit</div>
+              <div class="prod-desc">Salada fresca com atum, ovo cozido e azeite + água de coco gelada — o combo ideal pra quem cuida da alimentação sem abrir mão do sabor.</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 22,90</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'combo4',nome:'Combo Fit',preco:22.90,emoji:'🥗',desc:'Salada + Água de coco'})">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="prod-card" data-categoria="combos">
+            <div class="prod-img">
+              <img src="img/cafe.jpg" alt="café da manhã"></div>
+            <div class="prod-body">
+              <div class="prod-nome">Combo Café da Manhã</div>
+              <div class="prod-desc">Omelete na chapa + suco natural 400ml + fruta da estação — começo de dia completo, saboroso e nutritivo!</div>
+              <div class="prod-foot">
+                <div class="prod-preco"><span class="prod-preco-old">R$ 22,00</span>R$ 16,90</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'combo5',nome:'Combo Café da Manhã',preco:16.90,emoji:'🍳',desc:'Omelete + Suco + Fruta'})">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="prod-card" data-categoria="combos">
+            <div class="prod-img">
+              <img src="img/bolinha.jpg" alt="salgado">
+              <div class="prod-tags"><span class="tag tag-o">Novo</span></div></div>
+            <div class="prod-body">
+              <div class="prod-nome">Combo bolinhas de queijo</div>
+              <div class="prod-desc">bolinhas de queijo + coca cola zero — dupla perfeita pra recarregar as energias no intervalo!</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 20,90</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'combo6',nome:'Combo Tapioca',preco:20.90,emoji:'🌮',desc:'Tapioca + Smoothie'})">+</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -148,7 +212,7 @@
         <div class="secao-header">
           <span class="secao-icon">🥤</span>
           <h2>Bebidas</h2>
-          <span class="secao-count">3 opções</span>
+          <span class="secao-count">6 opções</span>
         </div>
         <div class="prods-grid">
           <div class="prod-card" data-categoria="bebidas">
@@ -189,6 +253,44 @@
               </div>
             </div>
           </div>
+          <div class="prod-card" data-categoria="bebidas">
+            <div class="prod-img">
+              <img src="img/leite.jpg" alt="café com leite"></div>
+            <div class="prod-body">
+              <div class="prod-nome">Café com Leite</div>
+              <div class="prod-desc">Café coado fresquinho com leite integral quentinho — clássico e reconfortante pra começar ou retomar o dia com energia.</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 5,00</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'beb4',nome:'Café com Leite',preco:5.00,emoji:'☕',desc:'300ml quentinho'})">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="prod-card" data-categoria="bebidas">
+            <div class="prod-img">
+              <img src="img/cha.jpg" alt="chá gelado">
+            <div class="prod-tags"><span class="tag tag-v">Fit</span></div></div>
+            <div class="prod-body">
+              <div class="prod-nome">Chá Gelado</div>
+              <div class="prod-desc">Chá de hibisco ou hortelã, gelado e sem açúcar. Refrescante, leve e cheio de propriedades naturais. 400ml.</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 5,50</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'beb5',nome:'Chá Gelado',preco:5.50,emoji:'🍵',desc:'Chá gelado 400ml'})">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="prod-card" data-categoria="bebidas">
+            <div class="prod-img">
+              <img src="img/vitamina.jpg" alt="vitamina">
+            </div>
+            <div class="prod-body">
+              <div class="prod-nome">Vitamina de Fruta</div>
+              <div class="prod-desc">Vitamina cremosa batida com leite e fruta fresca à escolha: mamão, banana ou manga. 400ml nutritivos e deliciosos.</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 8,00</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'beb6',nome:'Vitamina de Fruta',preco:8.00,emoji:'🥛',desc:'400ml com leite'})">+</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -197,7 +299,7 @@
         <div class="secao-header">
           <span class="secao-icon">🍰</span>
           <h2>Sobremesas</h2>
-          <span class="secao-count">2 opções</span>
+          <span class="secao-count">6 opções</span>
         </div>
         <div class="prods-grid">
           <div class="prod-card" data-categoria="sobremesas">
@@ -223,6 +325,57 @@
               <div class="prod-foot">
                 <div class="prod-preco">R$ 7,50</div>
                 <button class="btn-add" onclick="adicionarAoCarrinho({id:'sob2',nome:'Salada de Frutas',preco:7.50,emoji:'🍩',desc:'2 donuts recheados'})">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="prod-card" data-categoria="sobremesas">
+            <div class="prod-img">
+              <img src="img/brownie.jpg" alt="brownie">
+              <div class="prod-tags"><span class="tag tag-m">Top</span></div></div>
+            <div class="prod-body">
+              <div class="prod-nome">Brownie de Chocolate</div>
+              <div class="prod-desc">Brownie caseiro fudgy, com casca crocante e interior macio e chocolatudo — difícil comer só um!</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 6,00</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'sob3',nome:'Brownie de Chocolate',preco:6.00,emoji:'🍫',desc:'Brownie caseiro'})">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="prod-card" data-categoria="sobremesas">
+            <div class="prod-img">
+              <img src="img/pudin.jpg" alt="pudin"></div>
+            <div class="prod-body">
+              <div class="prod-nome">Pudim de Leite</div>
+              <div class="prod-desc">Pudim de leite condensado clássico, cremoso e com calda de caramelo dourada — a sobremesa que nunca decepciona.</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 6,50</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'sob4',nome:'Pudim de Leite',preco:6.50,emoji:'🍮',desc:'Fatia de pudim'})">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="prod-card" data-categoria="sobremesas">
+            <div class="prod-img">
+              <img src="img/bolinho.jpg" alt="bolinho">
+              <div class="prod-tags"><span class="tag tag-o">Novo</span></div></div>
+            <div class="prod-body">
+              <div class="prod-nome">Bolinho de Banana com Aveia</div>
+              <div class="prod-desc">Bolinho assado sem farinha, feito com banana madura e aveia. Saudável, macio e naturalmente adocicado — perfeito no intervalo!</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 5,50</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'sob5',nome:'Bolinho de Banana com Aveia',preco:5.50,emoji:'🥜',desc:'Bolinho saudável'})">+</button>
+              </div>
+            </div>
+          </div>
+          <div class="prod-card" data-categoria="sobremesas">
+            <div class="prod-img">
+              <img src="img/acai.jpg" alt="acai na tijela">
+            </div>
+            <div class="prod-body">
+              <div class="prod-nome">Açaí na Tigela</div>
+              <div class="prod-desc">Açaí cremoso servido com granola crocante, banana fatiada e fio de mel — energético e delicioso pra qualquer hora!</div>
+              <div class="prod-foot">
+                <div class="prod-preco">R$ 12,00</div>
+                <button class="btn-add" onclick="adicionarAoCarrinho({id:'sob6',nome:'Açaí na Tigela',preco:12.00,emoji:'🍓',desc:'Açaí 300ml com acompanhamentos'})">+</button>
               </div>
             </div>
           </div>
